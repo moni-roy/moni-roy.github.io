@@ -1,0 +1,31 @@
+mat-icon {
+    padding: 0 4px;
+}
+
+.top-nav-link {
+    color: white;
+    font-size: 14px;
+}
+
+.top-link-social {
+    padding: 0 16px;
+    font-size: 14px;
+    color: white;
+}
+
+.top-link-active {
+    color: rgb(21, 226, 65);
+}
+
+.mat-toolbar {
+    height: 50px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #026383bd;
+    color: #fff;
+}
+
+.nav-spacer {
+    flex: 1 1 auto;
+}

@@ -1,0 +1,33 @@
+.home-container {
+    margin-top: 16px;
+}
+
+.main-img {
+    display: block;
+    text-align: center;
+    width: 15%;
+    height: auto;
+    margin: 0 auto 8px;
+    border-radius: 30%;
+}
+
+.main-heading {
+    text-align: center;
+    color: #0D47A1;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 200, 241);
+}
+
+.main-subheading {
+    text-align: center;
+    color: #455A64;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.about-para {
+    padding: 16px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
