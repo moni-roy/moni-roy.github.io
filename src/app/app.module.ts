@@ -17,6 +17,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatSelectModule} from '@angular/material/select';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { InfomationService } from './services/infomation.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     NavigationComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -41,7 +44,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatSidenavModule,
 		MatToolbarModule
   ],
-  providers: [],
+  providers: [
+    InfomationService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

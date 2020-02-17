@@ -1,5 +1,6 @@
 .home-container {
-    margin-top: 16px;
+    background: #A0c2ec;
+    padding: 1%;
 }
 
 .main-img {
@@ -13,16 +14,12 @@
 
 .main-heading {
     text-align: center;
-    color: #0D47A1;
-    margin: 0;
-    text-decoration: underline;
-    text-decoration-color: rgb(245, 200, 241);
+    /* color: #0D47A1; */
 }
 
 .main-subheading {
     text-align: center;
-    color: #455A64;
-    margin-bottom: 0;
+    color: rgb(28, 36, 46);
     font-size: 14px;
 }
 
@@ -30,4 +27,22 @@
     padding: 16px;
     padding-left: 11%;
     padding-right: 11%;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: rgb(94, 72, 13); 
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eeee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #334953;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
 }

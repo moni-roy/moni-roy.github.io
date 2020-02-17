@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfomationService } from '../services/infomation.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  imageLink: string;
+
+  constructor(
+    private infoService: InfomationService
+  ) { }
 
   ngOnInit() {
+    this.getGithubInfo();
   }
-
+  getGithubInfo() {
+    this.infoService.getGithubinfo().subscribe(
+      (data: any) => {
+        this.imageLink = data['avatar_url'];
+      }
+    )
+  }
 }
