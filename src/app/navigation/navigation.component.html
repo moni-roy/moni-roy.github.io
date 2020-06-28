@@ -1,14 +1,40 @@
-<mat-toolbar color="primary">
-    <img src="../assets/mn.jpg" style="height:80%">
-    <a class="top-nav-link" routerLink="/home" routerLinkActive="top-link-active" mat-button>
-        <h2>MRoy</h2>
-    </a>
-    <span class="nav-spacer"></span>
+<div class="home-container">
+  <div class="d-flex justify-content-center">
     <div>
-        <a class="top-link-social" href="https://www.github.com/moni-roy" target="_blank" rel="noreferrer">Github</a>
-        <a class="top-link-social" href="https://www.linkedin.com/in/monikrishnaroy" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a class="top-link social" href="/assets/moniResume.pdf" target="_blank" rel="noreferrer">
-            <mat-icon>cloud_download</mat-icon> CV
+      <h2 class="main-heading">Monikrishna Roy</h2>
+      <h3 class="main-subheading">Software Engineer, Competitive Programmer</h3>
+      <div class="main-heading">
+        <a
+          href="https://www.linkedin.com/in/monikrishnaroy/"
+          class="icon"
+          target="_blank"
+        >
+          <img src="/assets/images/icons8-linkedin.svg" alt="LinkedIn" />
         </a>
+        <a href="https://www.github.com/moni-roy/" class="icon" target="_blank">
+          <img src="/assets/images/icons8-github.svg" alt="Github" />
+        </a>
+        <a href="mailto:roy.moni.ju.cse@gmail.com" class="icon" target="_blank">
+          <img src="/assets/images/email-black-48px.svg" alt="Email" /> </a
+        >
+      </div>
+      <div class="main-subheading">
+        <nav>
+          <a routerLink="/about">About Me</a>
+          <a routerLink="/education">Education</a>
+          <a routerLink="/projects">Projects</a>
+          <a routerLink="/profiles">Profiles</a>
+          <!-- <a routerLink="/contact">Contact</a> -->
+          <a href="/assets/moniResume.pdf">Resume</a>
+        </nav>
+      </div>
     </div>
-</mat-toolbar>
+    <div>
+      <img
+        class="main-img"
+        src="https://avatars0.githubusercontent.com/u/6818564?v=4"
+        alt="photo of MRoy"
+      />
+    </div>
+  </div>
+</div>

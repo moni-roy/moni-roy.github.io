@@ -1,31 +1,23 @@
-mat-icon {
-    padding: 0 4px;
+.home-container {
+  background: #faf8f8;
+  padding: 1%;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
-.top-nav-link {
-    color: white;
-    font-size: 14px;
+.main-img {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
 }
 
-.top-link-social {
-    padding: 0 16px;
-    font-size: 14px;
-    color: white;
+.main-heading {
+  text-align: center;
+  color: #0D47A1;
 }
 
-.top-link-active {
-    color: rgb(21, 226, 65);
-}
-
-.mat-toolbar {
-    height: 50px;
-}
-
-.mat-toolbar.mat-primary {
-    background: #026383bd;
-    color: #fff;
-}
-
-.nav-spacer {
-    flex: 1 1 auto;
+.main-subheading {
+  text-align: center;
+  color: rgb(28, 36, 46);
+  font-size: 14px;
 }

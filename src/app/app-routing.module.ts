@@ -4,6 +4,14 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
+  {
+    path: 'about',
+    component: HomeComponent
+  },
+  {
+    path: '',
+    component: HomeComponent
+  }
 ];
 
 @NgModule({
