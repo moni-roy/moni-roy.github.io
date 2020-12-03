@@ -1,0 +1,24 @@
+name: Pull request or push to Dev Branch
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    timeout-minutes: 30
+    name: Deploy website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: install angular-cli-ghpages
+        run: sudo npm install -g angular-cli-ghpages
+
+      - name: deploy to github pages
+        run: |
+          sudo npm install
+          sudo npm run build:github
+          sudo ngh --branch=master --repo=https://${{ secrets.GH_TOKEN }}@github.com/moni-roy/moni-roy.github.io.git --no-silent
