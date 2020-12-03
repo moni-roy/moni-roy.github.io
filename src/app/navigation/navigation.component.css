@@ -1,13 +1,10 @@
 .home-container {
   background: #faf8f8;
   padding: 1%;
-  margin-left: 11%;
-  margin-right: 11%;
 }
 
 .main-img {
-  width: 25%;
-  height: auto;
+  width: 35%;
   border-radius: 50%;
 }
 
@@ -20,4 +17,9 @@
   text-align: center;
   color: rgb(28, 36, 46);
   font-size: 14px;
+}
+
+.name-section {
+  margin-left: 110px;
+  padding-left: 101px;
 }

@@ -30,14 +30,23 @@ nav a {
   background-color: #eee;
   border-radius: 4px;
 }
+
 nav a:visited,
 a:link {
   color: #607d8b;
 }
+
 nav a:hover {
   color: #039be5;
   background-color: #cfd8dc;
 }
+
 nav a.active {
   color: #039be5;
+}
+
+/* window size */
+.page-size {
+  margin-left: 15%;
+  margin-right: 15%;
 }

@@ -19,12 +19,14 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { InfomationService } from './services/infomation.service';
 import { HttpClientModule } from '@angular/common/http';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    EducationComponent
   ],
   imports: [
     HttpClientModule,

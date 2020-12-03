@@ -8,20 +8,9 @@ import { InfomationService } from '../services/infomation.service';
 })
 export class HomeComponent implements OnInit {
 
-  imageLink: string;
-
   constructor(
-    private infoService: InfomationService
   ) { }
 
   ngOnInit() {
-    this.getGithubInfo();
-  }
-  getGithubInfo() {
-    this.infoService.getGithubinfo().subscribe(
-      (data: any) => {
-        this.imageLink = data['avatar_url'];
-      }
-    )
   }
 }
