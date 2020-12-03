@@ -12,13 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-
-      - name: install angular-cli-ghpages
-        run: sudo npm install -g angular-cli-ghpages
-
-      - name: deploy to github pages
-        run: |
-          sudo npm install
-          sudo ng build --prod --base-href 'https://moni-roy.github.io' --aot --output-hashing=all
-          sudo ngh --branch=master --repo=https://${{ secrets.GH_TOKEN }}@github.com/moni-roy/moni-roy.github.io.git --no-silent
+    - uses: actions/checkout@v2
+    - name: Angular Deploy gh-pages Actions
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.1
+      with:
+        github_access_token: ${{ secrets.GH_TOKEN }} # see the Configuration section for how you can create secrets
+        build_configuration: production # The build environment for the app. please look configurations in your angular.json
+        base_href: / # make sure this corresponds to https://<your_username>.github.io/<base_href>/
+        deploy_branch: master # The branch the action should deploy to.
+        angular_dist_build_folder: dist/moni-roy.github.io
