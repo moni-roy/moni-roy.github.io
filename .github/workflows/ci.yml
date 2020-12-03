@@ -21,4 +21,6 @@ jobs:
         run: |
           sudo npm install
           sudo npm run build:github
+          sudo npm run prebuild 
+          sudo ng build --prod --base-href 'https://moni-roy.github.io' --aot --output-hashing=all
           sudo ngh --branch=master --repo=https://${{ secrets.GH_TOKEN }}@github.com/moni-roy/moni-roy.github.io.git --no-silent
