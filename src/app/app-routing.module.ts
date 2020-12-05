@@ -13,10 +13,10 @@ const routes: Routes = [
   //   path: 'education',
   //   component: EducationComponent
   // },
-  {
-    path: '',
-    component: HomeComponent
-  }
+  // {s
+  //   path: '',
+  //   component: HomeComponent
+  // }
 ];
 
 @NgModule({

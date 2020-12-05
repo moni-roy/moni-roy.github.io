@@ -20,6 +20,7 @@
 }
 
 .name-section {
-  margin-left: 110px;
-  padding-left: 101px;
+  /* margin-left: 110px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

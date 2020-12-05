@@ -7,10 +7,21 @@ import { InfomationService } from '../services/infomation.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  imageLink: any;
 
   constructor(
+    private infoService: InfomationService
   ) { }
 
   ngOnInit() {
+    this.getGithubInfo();
+  }
+
+  getGithubInfo() {
+    this.infoService.getGithubinfo().subscribe(
+      (data: any) => {
+        this.imageLink = data['avatar_url'];
+      }
+    )
   }
 }
