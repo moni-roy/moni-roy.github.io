@@ -50,3 +50,11 @@ nav a.active {
   margin-left: 15%;
   margin-right: 15%;
 }
+
+.section {
+  padding: 10px;
+}
+
+.container {
+  padding: 10px;
+}

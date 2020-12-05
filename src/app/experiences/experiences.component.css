@@ -1,35 +1,38 @@
 .work-img {
-    width: 24px;
-  }
-  
-  .ul-work {
-    list-style: none;
-  }
-  
-  .fa-ul {
-    list-style-type: none;
-    margin-left: 4.5em;
-    padding-left: 0;
-  }
-  
-  .fa-li {
-    position: absolute;
-    text-align: center;
-    width: 2em;
-    line-height: inherit;
-    padding-top: 10px;
-  }
-  
-  ul.ul-work li .description {
-    margin-left: 10px;
-    padding-top: 6px;
-  }
-  
-  ul.ul-work li .description p.course {
-    font-size: 1.25rem;
-  }
-  
-  ul.ul-work li .description p {
-    margin: 0;
-  }
-  
+  width: 24px;
+}
+
+.experiences {
+  background-color: rgb(248, 247, 247);
+}
+
+.ul-work {
+  list-style: none;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 4.5em;
+  padding-left: 0;
+}
+
+.fa-li {
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+  padding-top: 10px;
+}
+
+ul.ul-work li .description {
+  margin-left: 10px;
+  padding-top: 6px;
+}
+
+ul.ul-work li .description p.course {
+  font-size: 1.25rem;
+}
+
+ul.ul-work li .description p {
+  margin: 0;
+}

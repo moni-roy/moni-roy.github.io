@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EducationComponent } from './education/education.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProgrammingComponent } from './programming/programming.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './footer/footer.component';
     NavigationComponent,
     EducationComponent,
     ExperiencesComponent,
-    FooterComponent
+    FooterComponent,
+    ProgrammingComponent
   ],
   imports: [
     HttpClientModule,
