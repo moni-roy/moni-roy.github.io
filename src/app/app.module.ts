@@ -20,13 +20,17 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { InfomationService } from './services/infomation.service';
 import { HttpClientModule } from '@angular/common/http';
 import { EducationComponent } from './education/education.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavigationComponent,
-    EducationComponent
+    EducationComponent,
+    ExperiencesComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,
