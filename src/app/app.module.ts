@@ -25,6 +25,9 @@ import { FooterComponent } from './footer/footer.component';
 import { ProgrammingComponent } from './programming/programming.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { ProjectsComponent } from './projects/projects.component';
+import { GalleryModule } from 'ng-gallery';
+import { LightboxModule } from 'ng-gallery/lightbox';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,8 @@ import { ProjectsComponent } from './projects/projects.component';
     ExperiencesComponent,
     FooterComponent,
     ProgrammingComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    CertificatesComponent
   ],
   imports: [
     HttpClientModule,
@@ -54,7 +58,9 @@ import { ProjectsComponent } from './projects/projects.component';
     MatSelectModule,
     MatSidenavModule,
     MatToolbarModule,
-    PdfViewerModule
+    PdfViewerModule,
+    GalleryModule,
+    LightboxModule
   ],
   providers: [
     InfomationService

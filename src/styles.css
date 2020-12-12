@@ -58,3 +58,11 @@ nav a.active {
 .container {
   padding: 10px;
 }
+
+.g-overlay {
+  min-width: 320px;
+}
+
+gallery {
+  font-size: 16px;
+}
