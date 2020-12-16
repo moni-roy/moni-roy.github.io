@@ -28,6 +28,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { GalleryModule } from 'ng-gallery';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { CertificatesComponent } from './certificates/certificates.component';
+import { OnlineProfilesComponent } from './online-profiles/online-profiles.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { CertificatesComponent } from './certificates/certificates.component';
     FooterComponent,
     ProgrammingComponent,
     ProjectsComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    OnlineProfilesComponent
   ],
   imports: [
     HttpClientModule,
