@@ -12,4 +12,7 @@ export class OnlineProfilesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // code for dev.daily profile
+  //<a href="https://app.daily.dev/mroy"><img src="https://api.daily.dev/devcards/942a53831fde46d2be8924eefc95be78.png?r=r8m" width="400" alt="M Roy's Dev Card"/></a>
+
 }
