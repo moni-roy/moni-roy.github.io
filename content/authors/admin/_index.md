@@ -129,19 +129,19 @@ skills:
       #   percent: 80
       #   icon: camera
 
-# languages:
-#   - name: English
-#     percent: 100
-#   - name: Chinese
-#     percent: 75
-#   - name: Portuguese
-#     percent: 25
+languages:
+  - name: English
+    percent: 75
+  # - name: Chinese
+  #   percent: 75
+  # - name: Portuguese
+  #   percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-# awards:
+awards:
 #   - title: Neural Networks and Deep Learning
 #     url: https://www.coursera.org/learn/neural-networks-deep-learning
 #     date: '2023-11-25'
