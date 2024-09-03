@@ -16,12 +16,12 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: Resume
+        url: 'https://docs.google.com/document/d/1zk-c4l4NEFUy4i00Axi4Rl-WZBErlk2Q7sG0iu2FjFc/edit?usp=sharing'
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+        filename: banner.jpg
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
@@ -37,12 +37,12 @@ sections:
     content:
       title: Skills & Hobbies
       username: admin
-  - block: awards
-    content:
-      title: Awards
-      username: admin
-  - block: languages
-    content:
-      title: Languages
-      username: admin
+  # - block: awards
+  #   content:
+  #     title: Projects
+  #     username: admin
+  # - block: languages
+  #   content:
+  #     title: Languages
+  #     username: admin
 ---
